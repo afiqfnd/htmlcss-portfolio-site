@@ -1,0 +1,154 @@
+*, body{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+
+nav{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 90vw;
+    margin-left: 5%;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4em;
+    cursor: pointer;
+    padding-top: 1em;
+}
+
+li{
+    transition: all 0.3s ease 0s;
+}
+
+li:hover{
+    color: #278EA5;
+}
+
+.contact-button{
+    padding: 0.3em 1.5em;
+    border: 2px solid white;
+    border-radius: 55px;
+    background-color: #278EA5;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-button:hover{
+    color: #278EA5;
+    background-color:antiquewhite;
+}
+
+.aqua{
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.alternate{
+    font-family: 'VT323', monospace;
+    font-size: 4em;
+    background-color: none;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: transparent;
+}
+
+.about{
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    padding: 10% 0;
+
+}
+
+.item{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects{
+    /* border: 3px solid red;
+    display: block;
+    justify-content: right;
+    align-items: center;
+    align-items: top;
+    width: 60vw;
+    margin: 0 20%; */
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    width: 60vw;
+    margin: 0 0 20% 20%;
+}
+
+.card-img{
+    height: 150px;
+    object-fit: cover;
+}
+
+.card{
+    
+    align-items: center;
+    width: 25%;
+    border: 2px solid antiquewhite;
+    color: #278EA5;
+}
+
+.button{
+    padding: 0.3em 1.5em;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #278EA5;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+    color: #278EA5;
+    background-color:antiquewhite;
+}
+
+.contact-me{
+    display: block;
+    width: 60vw;
+    margin-left: 20%;
+    padding-bottom: 2em;
+}
+
+h2{
+    font-size: 3rem;
+    padding-bottom: 0.5em;
+}
+
+.footing-contact, .footing-back{
+    display: flex;
+    width: 90vw;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
